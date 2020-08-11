@@ -1,0 +1,12 @@
+
+body{
+    background: var(--color2);
+    font-family: var(--font);
+    color: var(--orange);
+}
+.jumbotron{
+    background-image: url('../assets/peter-olexa-Ejgx4k3iryg-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:black;
+}
