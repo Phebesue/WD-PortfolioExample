@@ -1,0 +1,257 @@
+/* Desktop PC */
+
+/*Insert all your CSS for main website here
+Then anything that needs to be queried gets dropped below*/
+#about {
+    background-color: #001320;
+    background-size: cover;
+    height: 100vh;
+    display: grid;
+}
+
+#about h1{
+    color: white;
+    font-size: 2.5em;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin-top: 5vh;
+    margin-left: 2vh;
+    margin-bottom: 5vh;
+}
+
+#about p{
+    color: white;
+    font-size: 2.5vh;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    text-align: justify;
+    margin: 3vh;
+}
+
+#about p a{
+    color: white;
+    font-size: 2.5vh;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    text-align: justify;
+}
+
+#about h5{
+    color: white;
+    font-size: 2.5vh;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    margin: 3vh;
+    padding-top: 3vh;
+}
+
+.aboutme {
+    padding: 4vh;
+    background-color: rgb(167,182,188, 0.8);
+    border-radius: 3.5em;
+}
+
+.btn-info{
+    color: white;
+    background-color: #001320;
+    border-color: #001320;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 3vh;
+    margin: 3vh auto;
+}
+
+.btn-info:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: #001320;
+    /* padding: 2vh; */
+    border-radius: 3vh;
+}
+
+.button {
+    text-align: center;
+    display: block;
+    font-size: 6vh;
+    margin-top: 5vh;
+}
+
+.resume {
+    height: 150px;
+    text-align: center;
+    margin: auto;
+}
+
+/* .modal-content {
+    background-color:  rgb(167,182,188);
+} */
+
+.button1 {
+    text-align: center;
+    margin: auto;
+    background-color: rgb(167,182,188, 0.8);
+    border-radius: 3.5vh;
+    border-color: rgb(167,182,188, 0.8);
+    padding: 0.5em 2em;
+}
+
+.button1:hover {
+    text-align: center;
+    margin: auto;
+    border-radius: 3.5vh;
+    background-color: #001320;
+}
+
+
+/* Responsive */
+@media screen and (max-width: 1159px) {
+    .container {
+        max-width: 75%;
+        max-height: 65%;
+    }
+    #about p{
+        color: #ffffff;
+        font-size: 2.2vh;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        text-align: justify;
+        margin: 2vh;
+    }
+    .button {
+        text-align: center;
+        display: block;
+        font-size: 6vh;
+    }
+    #about p a{
+        color: white;
+        font-size: 2.2vh;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        text-align: justify;
+    }
+    
+    #about h5{
+        color: white;
+        font-size: 2.2vh;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        text-align: center;
+        margin: 2vh;
+        padding-top: 3vh;
+    }
+
+}
+/* Ipad Pro COMPLETE */
+@media screen and (max-width: 1024px) {
+
+}
+/* Ipad COMPLETE */
+@media screen and (max-width: 769px) {
+    #about p{
+        color: #ffffff;
+        font-size: 1.8vh;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        text-align: justify;
+        margin: 2vh;
+    }
+    .button {
+        text-align: center;
+        display: block;
+        font-size: 6vh;
+    }
+    #about p a{
+        color: white;
+        font-size: 1.8vh;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        text-align: justify;
+    }
+}
+
+/* Samsung Moto X */
+@media screen and (max-width: 725px) {
+    .container {
+        max-width: 85%;
+    }
+
+    /* .aboutme{
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    } */
+
+    #about h1{
+        color: white;
+        font-size: 2.3em;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        margin-top: 5vh;
+        margin-left: 2vh;
+        margin-bottom: 6vh;
+    }
+
+    #about h5{
+        padding-top: 0;
+        font-size: 1.8vh;
+    }
+    
+    button {
+        font-size: 8vh;
+    }
+
+    .aboutme {
+        padding: 2.3vh;
+        background-color: rgb(167,182,188, 0.8);
+        border-radius: 3.5em;
+    }
+
+}
+/* Iphone 6/7/8 Plus COMPLETE */
+@media screen and (max-width: 414px) {
+    .aboutme{
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 2vh;
+    }
+
+    #about p{
+        color: #ffffff;
+        font-size: 1.8vh;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        text-align: justify;
+        margin: 1.5vh;
+    }
+    #about h1{
+        color: white;
+        font-size: 2em;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        margin-top: 5vh;
+        margin-left: 2vh;
+    }
+}
+/* Pixel 2 & Pixel 2 XL COMPLETE */
+@media screen and (max-width: 412px) {
+
+}
+/* iPhone 6/7/8 & iPhone X COMPLETE */
+@media screen and (max-width: 400px) {
+
+}
+/* Galaxy S5 */
+@media screen and (max-width: 375px) {
+    #about h1{
+        color: white;
+        font-size: 2em;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        margin-top: 4vh;
+        margin-left: 2vh;
+        margin-bottom: 3vh;
+    }
+}
+/* Iphone 5/SE */
+@media screen and (max-width: 330px) {
+
+}

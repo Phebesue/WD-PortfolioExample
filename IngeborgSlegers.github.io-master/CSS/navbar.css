@@ -1,0 +1,153 @@
+/* Desktop PC */
+
+/*Insert all your CSS for main website here
+Then anything that needs to be queried gets dropped below*/
+
+.navbar{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.fa-linkedin {
+    color: white;
+    font-size: 2em;
+}
+
+.fa-github {
+    color: white;
+    font-size: 2em;
+}
+
+.navbar-brand {
+    text-align: center;
+    margin-right: 0;
+    margin-left: 2%;
+}
+
+/* Responsive */
+@media screen and (max-width: 1159px) {
+
+}
+/* Ipad Pro COMPLETE */
+@media screen and (max-width: 1024px) {
+
+}
+
+
+/* Ipad COMPLETE */
+@media screen and (max-width: 769px) {
+    .fa-github {
+        color: white;
+        font-size: 2em;
+        padding-right: 0;
+    }
+    .navbar-brand {
+        text-align: center;
+        font-size: 3vh;
+    }
+}
+
+/* Samsung Moto X */
+@media screen and (max-width: 725px) {
+
+}
+/* Iphone 6/7/8 Plus COMPLETE */
+@media screen and (max-width: 414px) {
+    .fa-github {
+        color: white;
+        font-size: 1.5em;
+        margin-right: 0;
+    }
+    .fa-linkedin {
+        color: white;
+        font-size: 1.5em;
+
+    }
+}
+/* Pixel 2 & Pixel 2 XL COMPLETE */
+@media screen and (max-width: 412px) {
+    .navbar {
+        height: 7%;
+    }
+
+    .navbar-brand {
+        font-size: 2.1vh;
+        margin-left: -10px;
+    }
+
+    .fa-github {
+        color: white;
+        font-size: 1.5em;
+        margin: 0;
+    }
+    .fa-linkedin {
+        color: white;
+        font-size: 1.5em;
+        margin: 0;
+    }
+    .socialmedia {
+        margin: 0;
+    }
+}
+/* iPhone 6/7/8 & iPhone X COMPLETE */
+@media screen and (max-width: 400px) {
+
+}
+/* Galaxy S5 */
+@media screen and (max-width: 375px) {
+    .navbar{
+        height: 9%;
+    }
+
+    .fa-linkedin {
+        color: white;
+        font-size: 1.1em;
+        padding-right: 0;
+    }
+    
+    .fa-github {
+        color: white;
+        font-size: 1.1em;
+        padding-right: 30%;
+    }
+
+    .navbar-brand {
+        text-align: center;
+        margin-right: 0;
+        margin-left: 2%;
+    }
+}
+/* Iphone 5/SE */
+@media screen and (max-width: 330px) {
+    .navbar{
+        height: 9%;
+    }
+
+    .fa-linkedin {
+        color: white;
+        font-size: 1.1em;
+        padding-right: 0.5vh;
+    }
+    
+    .fa-github {
+        color: white;
+        font-size: 1.1em;
+        padding-right: 0;
+        padding-left: 0.5vh;
+    }
+
+    .navbar-brand {
+        font-size: 2.5vh;
+        text-align: center;
+        margin: 0;
+    }
+
+    .socialmedia {
+        margin: 0;
+        padding: 0;
+    }
+}
+

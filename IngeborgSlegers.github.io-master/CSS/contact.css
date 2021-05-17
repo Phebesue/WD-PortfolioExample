@@ -1,0 +1,12 @@
+#contact {
+    height: 100vh;
+    text-align: center;
+    color: white;
+    margin-top: 6em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+form {
+    text-align: center;
+    width: 100%;
+}
